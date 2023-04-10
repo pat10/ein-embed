@@ -1,5 +1,8 @@
+// This embeds the latest Daybell Digest article onto anyone's website.
+// For convenience, the code we will give out will be <div id="ein_article"></div> and a link to this script
+
 // Where we're putting the elements
-const ein_article_destination = document.getElementById("ein_article"); // For convenience, we the code we will give out will be <div id="ein_article"></div> and a link to this script
+const ein_article_destination = document.getElementById("ein_article"); 
 let ein_host_head_element = document.getElementsByTagName('head');
 ein_host_head_element = ein_host_head_element[0];
 
